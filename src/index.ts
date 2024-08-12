@@ -1,24 +1,24 @@
-import { SCHEMES } from "./uri";
+import { SCHEMES } from './uri.js'
 
-import http from "./schemes/http";
-SCHEMES[http.scheme] = http;
+import http from './schemes/http.js'
+SCHEMES[http.scheme] = http
 
-import https from "./schemes/https";
-SCHEMES[https.scheme] = https;
+import https from './schemes/https.js'
+SCHEMES[https.scheme] = https
 
-import ws from "./schemes/ws";
-SCHEMES[ws.scheme] = ws;
+import ws from './schemes/ws.js'
+SCHEMES[ws.scheme] = ws
 
-import wss from "./schemes/wss";
-SCHEMES[wss.scheme] = wss;
+import wss from './schemes/wss.js'
+SCHEMES[wss.scheme] = wss
 
-import mailto from "./schemes/mailto";
-SCHEMES[mailto.scheme] = mailto;
+import mailto from './schemes/mailto.js'
+SCHEMES[mailto.scheme] = mailto
 
-import urn from "./schemes/urn";
-SCHEMES[urn.scheme] = urn;
+import urn from './schemes/urn.js'
+SCHEMES[urn.scheme] = urn
 
-import uuid from "./schemes/urn-uuid";
-SCHEMES[uuid.scheme] = uuid;
+import uuid from './schemes/urn-uuid.js'
+SCHEMES[uuid.scheme] = uuid
 
-export * from "./uri";
+export * from './uri.js'

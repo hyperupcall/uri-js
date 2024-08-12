@@ -1,20 +1,19 @@
 {
-    "compilerOptions": {
-        "module": "es2015",
-        "target": "esnext",
-        "noImplicitAny": true,
-        "sourceMap": true,
-        "alwaysStrict": true,
-        "declaration": true,
-        "experimentalDecorators": true,
-        "forceConsistentCasingInFileNames": true,
-        "importHelpers": true,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "outDir": "dist/esnext",
-        "strictNullChecks": true
-    },
-    "include": [
-        "src/**/*"
-    ]
+  "compilerOptions": {
+    "strict": false,
+    "module": "Node16",
+    "target": "ES2018",
+    // "noImplicitAny": true,
+    "sourceMap": true,
+    // "alwaysStrict": true,
+    "declaration": true,
+    // "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "dist"
+    // "strictNullChecks": true
+  },
+  "include": ["src/**/*"]
 }
